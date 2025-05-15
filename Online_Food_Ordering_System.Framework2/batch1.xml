@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ecom.food_order.cart.placeOrderByRestaurant"/>
+      <class name="com.ecom.food_order.cart.cancelTheOrder"/>
+      <class name="com.ecom.food_order.cart.addMultipleItem"/>
+      <class name="com.ecom.food_order.cart.viewOrderHistory"/>
+      <class name="com.ecom.food_order.cart.placeOrder"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
